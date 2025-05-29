@@ -37,14 +37,14 @@ const ProductCard = observer(({ product, setShowLoginModal }) => {
 
   return (
     <div className="product-card">
-      <img onClick={addWishlist} className="heart addWishlist" src="assets/images/heart.svg" alt="" />
-      <img onClick={addCart} style={{ top: '50px' }} className="heart addCart" src="assets/images/delete.svg" alt="" />
+      <img onClick={addWishlist} className="heart addWishlist" src="/assets/images/heart.svg" alt="" />
+      <img onClick={addCart} style={{ top: '50px' }} className="heart addCart" src="/assets/images/delete.svg" alt="" />
       <Link to={`/product/${product.id}`}>
         <div className="image-div">
           <img className="product-img" src={`https://ecomerceapis.runasp.net/${product.imagePath[0]}`} alt={product.name} />
         </div>
       </Link>
-      <img className="product-stroke" src="assets/images/stroke.svg" alt="" />
+      <img className="product-stroke" src="/assets/images/stroke.svg" alt="" />
       <p><Link to="/product/detail">{product.name}</Link></p>
       <div className="price">
         <span>${product.price}</span>

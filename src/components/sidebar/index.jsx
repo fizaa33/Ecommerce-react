@@ -25,7 +25,7 @@ const Sidebar = observer(()=>{
   return (
       <div className="sidebar">
               <div className="id d-flex">
-                <img src="assets/images/profile-circle.svg" alt="" />
+                <img src="/assets/images/profile-circle.svg" alt="" />
                 <h5 className="mb-0 ms-2 user-name-on-page">{profile.fullName}</h5>
               </div>
               <ul className="account-sidebar">

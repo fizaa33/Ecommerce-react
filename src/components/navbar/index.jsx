@@ -119,7 +119,7 @@ const HeaderNavbar = observer(({ showLoginModal, setShowLoginModal }) => {
         <div className="container">
           <Navbar.Brand as={Link} to={'/'}>
           
-            <img className='logo' src="assets/images/style=primary.svg" alt="Logo" />
+            <img className='logo' src="/assets/images/style=primary.svg" alt="Logo" />
         
           </Navbar.Brand>
           <Navbar.Toggle onClick={() => setShowOffcanvas(true)} />
@@ -142,16 +142,16 @@ const HeaderNavbar = observer(({ showLoginModal, setShowLoginModal }) => {
 
           <div className="nav-right d-flex align-items-center">
             <img
-              src="assets/images/search.svg"
+              src="/assets/images/search.svg"
               alt="Search"
               style={{ cursor: 'pointer' }}
               onClick={() => setShowSearchModal(true)}
             />
-            <img src="assets/images/delete.svg" alt="Cart" id="cart" onClick={() => setShowCartDropdown(!showCartDropdown)} />
+            <img src="/assets/images/delete.svg" alt="Cart" id="cart" onClick={() => setShowCartDropdown(!showCartDropdown)} />
 
             {token ? (
              <span onClick={() => setShowProfileDropdown(!showProfileDropdown)} style={{ cursor: 'pointer', display: 'inline-block' }}>
-  <img src="assets/images/user.svg" alt="User" id="user" />
+  <img src="/assets/images/user.svg" alt="User" id="user" />
 </span>
 
             )
@@ -178,7 +178,7 @@ const HeaderNavbar = observer(({ showLoginModal, setShowLoginModal }) => {
           <ul className="profile-list">
             <li>
               <Link onClick={()=> setShowProfileDropdown(false)} to="/account">
-                <img src="assets/images/profile-circle.svg" alt="Profile" />
+                <img src="/assets/images/profile-circle.svg" alt="Profile" />
                 <div className="user-name">
                   <p id="userName">{profile.fullName}</p>
                   <span id="userEmail">{profile.email}</span>
@@ -187,17 +187,17 @@ const HeaderNavbar = observer(({ showLoginModal, setShowLoginModal }) => {
             </li>
             <li>
               <Link onClick={()=> setShowProfileDropdown(false)} to="/history">
-                <img src="assets/images/desktop.svg" alt="Orders" /> Orders
+                <img src="/assets/images/desktop.svg" alt="Orders" /> Orders
               </Link>
             </li>
             <li>
               <Link onClick={()=> setShowProfileDropdown(false)} to="/wishlist">
-                <img src="assets/images/heart.svg" alt="Wishlist" /> Wishlist
+                <img src="/assets/images/heart.svg" alt="Wishlist" /> Wishlist
               </Link>
             </li>
             <li >
               <Link onClick={logoutUser}>
-                <img src="assets/images/desktop.svg" alt="Logout" /> Logout
+                <img src="/assets/images/desktop.svg" alt="Logout" /> Logout
               </Link>
                
             </li>

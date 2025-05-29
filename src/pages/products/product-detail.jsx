@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import '../layout.css'
 import './product.css'
-import '../media.css'
+import './product-detail-media.css'
 import { rootStore } from '../../stores'
 import { useParams } from 'react-router'
 import { observer } from 'mobx-react-lite'
@@ -72,13 +72,13 @@ const handleStarClick = (value) => {
           </div>
           <div className="stock">
               <span>
-                  <img src="assets/images/shop.svg" alt="" /> In Stock
+                  <img src="/assets/images/shop.svg" alt="" /> In Stock
               </span>
               <span>
-                  <img src="assets/images/guarantee.svg" alt="" /> Guaranteed
+                  <img src="/assets/images/guarantee.svg" alt="" /> Guaranteed
               </span>
               <span>
-                  <img src="assets/images/delivey.svg" alt="" /> Free Delivery
+                  <img src="/assets/images/delivey.svg" alt="" /> Free Delivery
               </span>
           </div>
           <div className="color">
@@ -89,7 +89,7 @@ const handleStarClick = (value) => {
           <div className="product-price">
               <h5>$ {product.price}</h5>
               <p style={{color: "orangered"}}>
-                  <img src="assets/images/discount-shape.svg" alt="" />-12%
+                  <img src="/assets/images/discount-shape.svg" alt="" />-12%
               </p>
           </div>
           <p className="last-price">last price $ 336.00</p>
@@ -184,7 +184,7 @@ const handleStarClick = (value) => {
               return (
 <div key={review.id} className="comment1">
                     <div className="comment-profile">
-                        <img src="assets/images/person.svg" alt="" />
+                        <img src="/assets/images/person.svg" alt="" />
                         <div className="profile-name">
                             <h6>{review.username || "Anonymous"}</h6>
                             <span>{new Date(review.createdAt).toLocaleDateString()}</span>
@@ -195,10 +195,10 @@ const handleStarClick = (value) => {
                     </div>
                     <p className="comment-text">{review.message}</p>
                     <div className="thumbs">
-                        <img src="assets/images/thumb-up.svg" alt="" />
+                        <img src="/assets/images/thumb-up.svg" alt="" />
                         <span>{review.likes || 0}</span>
                         <span>|</span>
-                        <img src="assets/images/thumb-down.svg" alt="" />
+                        <img src="/assets/images/thumb-down.svg" alt="" />
                         <span>{review.dislikes || 0}</span>
                     </div>
                 </div>

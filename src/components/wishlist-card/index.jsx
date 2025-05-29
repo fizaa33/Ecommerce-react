@@ -39,7 +39,7 @@ const WishCard = observer(({data, setShowLoginModal})=>{
             </p>
             <div className="price">
               <button onClick={addCart} className="btn btn-outline-primary addCart">Add to Cart</button>
-              <img onClick={deleteItem} src="assets/images/trash btn.svg" alt="Delete Item" className="delete-btn"  />
+              <img onClick={deleteItem} src="/assets/images/trash btn.svg" alt="Delete Item" className="delete-btn"  />
             </div>
     </div>
   )
