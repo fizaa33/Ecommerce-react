@@ -236,8 +236,10 @@ align-items: center;
 }
 .all-products{
     display: flex;
-    justify-content: space-between;
-    margin: 30px 0px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin: 30px;
 }
 .product-card:hover{
     box-shadow: -2px 2px 20px -1px rgba(113, 113, 113, 0.25);
