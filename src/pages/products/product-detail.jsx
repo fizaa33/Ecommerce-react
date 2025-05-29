@@ -94,7 +94,7 @@ const handleStarClick = (value) => {
           </div>
           <p className="last-price">last price $ 336.00</p>
           <div className="buy-now">
-              <button className="btn btn-primary w-100">Buy Now</button>
+             
               <button onClick={addToCart} className="btn btn-outline-primary w-100">{cartStore.loading? <Spinner animation="border" variant="light" /> : "Add to cart"}</button>
           </div>
       </div>
