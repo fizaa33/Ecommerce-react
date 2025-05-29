@@ -17,3 +17,11 @@
     right: 80px;
     width: auto;
 }
+
+@media screen and (max-width : 550px) {
+ #profile-dropdown , #cart-dropdown{
+    left: auto;
+    right: 0px;
+    width: 100%;
+}   
+}
