@@ -136,7 +136,7 @@ const HeaderNavbar = observer(({ showLoginModal, setShowLoginModal }) => {
                 <Nav.Link as={Link} to={'/'} className='px-4'>
                  Home</Nav.Link>
                <Nav.Link className='px-4' to="/products">Products</Nav.Link>
-                <Nav.Link className='px-4' href="">Contact Us</Nav.Link>
+                <Nav.Link className='px-4' to="">Contact Us</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
