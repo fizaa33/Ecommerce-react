@@ -34,9 +34,10 @@ useEffect(()=>{
     <div className="container">
       <div className="hero-section d-flex row">
         <div className="col-lg-5 col-sm-12">
-          <h1 id="bannerTitle" className="heading"> "Tech Heim"</h1>
+          <h1 id="bannerTitle" className="heading">Tech Heim</h1>
           <p id="bannerDescription" className="hero-text">
-           `Join the digital revolution`
+
+           Join the digital revolution
           </p>
           <Link style={{ textDecoration: "none" }} to='/products' id="exploreMore">
             <button className="hero-btn">Explore More</button>
