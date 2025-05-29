@@ -514,3 +514,6 @@ opacity: 0;
 
 
 
+.wishlist-container>.product-card {
+    width: 32%;
+}

@@ -20,7 +20,8 @@ const OrderStatus = observer(() => {
   const items = orderDetail?.items ?? [];
 
   return (
-    <div className="container d-flex">
+    <div className='container'>
+    <div className="account-container d-flex">
       <Sidebar />
       <div className="account-main">
         <div className="ord-heading">
@@ -91,10 +92,11 @@ const OrderStatus = observer(() => {
               );
             })
           ) : (
-            <p>No items available.</p>  
+            <p></p>  
           )}
         </div>
       </div>
+    </div>
     </div>
   );
 });

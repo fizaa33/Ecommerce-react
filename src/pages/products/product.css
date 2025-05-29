@@ -40,16 +40,7 @@ justify-content: space-between;
 gap: 10px;
 }
 
-.sidebar{
-    width: 260px;
-}
-#filters{
-    cursor: pointer;
-}
 
-.sidebar a{
-text-decoration: none;
-}
 .main-container{
     justify-content: space-between;
 }

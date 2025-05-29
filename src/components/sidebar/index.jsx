@@ -26,7 +26,9 @@ const Sidebar = observer(()=>{
       <div className="sidebar">
               <div className="id d-flex">
                 <img src="/assets/images/profile-circle.svg" alt="" />
+                 <span className="sidebar-txt">
                 <h5 className="mb-0 ms-2 user-name-on-page">{profile.fullName}</h5>
+              </span>
               </div>
               <ul className="account-sidebar">
                 <li>
@@ -47,13 +49,7 @@ const Sidebar = observer(()=>{
                     <span className="sidebar-txt">Wish list</span>
                   </Link>
                 </li>
-                <li>
-                  <Link href="">
-                    <FontAwesomeIcon icon={faLifeRing} />
-                    <span className="sidebar-txt">Contact us</span>
-                  </Link>
-                </li>
-        
+               
               </ul>
             </div>
   )

@@ -368,3 +368,17 @@ height: 80px;
 	height: 100px;
 	border-radius: 50%;
 }
+
+@media screen and (max-width: 768px) {
+  .cart-inner, .checkout-main, .address-flex1{
+   flex-direction: column;
+   gap: 20px;
+}
+.cart-cards, .checkout-cart, .checkout-cart2, .address-main{
+    width: 100%;
+}
+.cart-price{
+    width: 100%;
+    margin-top: 20px;
+}
+}

@@ -54,6 +54,7 @@ const History = observer(() => {
 
             <Tab.Content className="py-3 main-div">
               <Tab.Pane eventKey="home">
+                <div className='overflow-x-auto'>
                 <Table bordered striped className="mt-4">
                   <thead>
                     <tr>
@@ -78,8 +79,10 @@ const History = observer(() => {
 
                   </tbody>
                 </Table>
+                </div>
               </Tab.Pane>
               <Tab.Pane eventKey="menu1">
+                 <div className='overflow-x-auto'>
                 <Table bordered striped className="mt-4">
                   <thead>
                     <tr>
@@ -104,8 +107,10 @@ const History = observer(() => {
                       ))}
                   </tbody>
                 </Table>
+                </div>
               </Tab.Pane>
               <Tab.Pane eventKey="menu2">
+                 <div className='overflow-x-auto'>
                 <Table bordered striped className="mt-4">
                   <thead>
                     <tr>
@@ -130,8 +135,10 @@ const History = observer(() => {
                       ))}
                   </tbody>
                 </Table>
+                </div>
               </Tab.Pane>
               <Tab.Pane eventKey="menu3">
+                 <div className='overflow-x-auto'>
                 <Table bordered striped className="mt-4">
                   <thead>
                     <tr>
@@ -156,6 +163,7 @@ const History = observer(() => {
                       ))}
                   </tbody>
                 </Table>
+                </div>
               </Tab.Pane>
             </Tab.Content>
           </Tab.Container>

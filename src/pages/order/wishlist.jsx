@@ -25,7 +25,7 @@ const Wishlist = observer((setShowLoginModal) => {
           <h4>Wish list</h4>
           <p className="gray-text">See your favorites list here</p>
 
-          <div className="product-container all-products">
+          <div className="wishlist-container all-products">
             {wishlistStore.wishlist.length > 0 ? (
               wishlistStore.wishlist.map((data, index) => (
                 <WishCard key={data.productId || index} data={data} setShowLoginModal={setShowLoginModal} />

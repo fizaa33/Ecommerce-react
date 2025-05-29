@@ -84,3 +84,9 @@ outline: none;
 .input1 input:focus .input1{
    border: 1px solid blue;
     }
+
+    @media screen and (max-width: 1000px) {
+    .input1 {
+        width: 100%;
+    }
+}
