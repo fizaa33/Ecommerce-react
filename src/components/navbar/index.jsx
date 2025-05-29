@@ -135,8 +135,7 @@ const HeaderNavbar = observer(({ showLoginModal, setShowLoginModal }) => {
               <Nav className="justify-content-center flex-grow-1 pe-3">
                 <Nav.Link as={Link} to={'/'} className='px-4'>
                  Home</Nav.Link>
-               <Nav.Link className='px-4' to="/products">Products</Nav.Link>
-                <Nav.Link className='px-4' to="">Contact Us</Nav.Link>
+               <Nav.Link as={Link} className='px-4' to={"/products"}>Products</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
