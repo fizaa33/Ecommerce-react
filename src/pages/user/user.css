@@ -1,0 +1,86 @@
+.sidebar{
+    width: 240px;
+    border-radius: 8px;
+border: 1px solid var(--Neutral-Gray-F6F6F6, #F6F6F6);
+background: var(--Neutral-Gray-F9F9F9, #F9F9F9);
+margin-top: 30px;
+}
+.account-sidebar{
+    list-style-type: none;
+    font-size: 19px;
+    padding: 0;
+}
+
+.account-sidebar a{
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+   
+}
+.account-sidebar li{
+    padding: 15px 5px;
+    border: 2px solid #F9F9F9;
+    transition: 0.4s all;
+  
+}
+.account-sidebar li:hover{
+    border-left: 2px solid blue;
+    background-color: #F6F6F6;
+}
+.account-sidebar li:hover a{
+    color: blue;
+}
+.id{
+    padding: 18px 10px;
+}
+.account-container{
+    display: flex;
+    justify-content: space-between;
+}
+.acc-inputs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.input1{
+    width: 48%;
+    color: #717171;
+}
+.input1>span{
+    font-size: 14px;
+    margin-left: 15px;
+}
+.account-main{
+    width: 70%;
+    margin: 30px;
+
+}
+.input{
+    border-radius: 8px;
+border: 1px solid var(--Neutral-Gray-F6F6F6, #F6F6F6);
+background: var(--Neutral-Gray-F9F9F9, #F9F9F9);
+display: flex;
+align-items: center;
+gap: 10px;
+padding:17px 15px;
+overflow: hidden;
+text-overflow: ellipsis;
+
+}
+.input>input{
+  border: 0;
+  background-color: #F9F9F9;
+  font-size: 18px;
+  font-weight: 300;
+}
+.input1 input:focus{
+outline: none;
+}
+
+.input1 input:focus .input1{
+   border: 1px solid blue;
+    }

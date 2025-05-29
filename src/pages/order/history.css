@@ -1,0 +1,57 @@
+
+/* order Status */
+.orderHeading {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.div1 {
+    box-shadow: none;
+}
+
+.div1-1 {
+    width: 100%;
+}
+
+.account-main>p {
+    margin: auto;
+}
+
+.completed{
+    border-radius: 8px;
+    background: var(--Neutral-Gray-F9F9F9, #F9F9F9);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.account-main .nav-item{
+    border: 0;
+  }
+  .account-main .nav-link.active {
+    border-bottom: 1px solid blue;
+  }
+  .account-main .nav-link:hover{
+    border-bottom: 1px solid #0C68F4;
+  }
+  .account-main .nav-link{
+    flex-direction: row;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .active .number{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #0C68F4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
